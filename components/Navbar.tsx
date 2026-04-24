@@ -57,7 +57,7 @@ export default function Navbar() {
           {/* CTA */}
           <a
             href="#contact"
-            className="hidden md:inline-flex items-center gap-2 bg-[#FF6B35] text-[#080808] font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#FF8555] transition-colors"
+            className="hidden md:inline-flex items-center gap-2 bg-white text-[#080808] font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#FF6B35] hover:text-white transition-all duration-300"
           >
             Let's Talk
           </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
             <a
               href="#contact"
               onClick={handleLinkClick}
-              className="mt-10 inline-flex items-center justify-center bg-[#FF6B35] text-[#080808] font-semibold text-base px-6 py-3 rounded-full w-full hover:bg-[#FF8555] transition-colors"
+              className="mt-10 inline-flex items-center justify-center bg-white text-[#080808] font-semibold text-base px-6 py-3 rounded-full w-full hover:bg-[#FF6B35] hover:text-white transition-all duration-300"
             >
               Let's Talk
             </a>

@@ -166,7 +166,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="flex items-center justify-center gap-2 bg-[#FF6B35] text-[#080808] font-bold px-6 py-3.5 rounded-full hover:bg-white transition-colors text-sm mt-1"
+                  className="flex items-center justify-center gap-2 bg-white text-[#080808] font-bold px-6 py-3.5 rounded-full hover:bg-[#FF6B35] hover:text-white transition-all duration-300 text-sm mt-1"
                 >
                   Send Message <ArrowRight size={14} />
                 </button>

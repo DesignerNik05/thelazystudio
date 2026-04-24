@@ -131,7 +131,7 @@ export default function Services() {
           </div>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 bg-[#080808] text-[#FF6B35] font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#111] transition-colors whitespace-nowrap"
+            className="inline-flex items-center gap-2 bg-white text-[#080808] font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#080808] hover:text-white transition-all duration-300 whitespace-nowrap"
           >
             Let's Talk <ArrowRight size={14} />
           </a>
