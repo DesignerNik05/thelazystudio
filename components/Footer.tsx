@@ -21,7 +21,7 @@ export default function Footer() {
               <span className="text-[#f0f0f0] font-medium text-sm opacity-40 tracking-widest uppercase hidden sm:block">The Lazy Studio</span>
             </a>
             <p className="text-xs text-[#444] leading-relaxed max-w-[220px]">
-              Design & development by Nikita & Akash Kalsi. Based in Chandigarh, India. Working globally.
+              A freelance design & development studio based in Chandigarh, India. Working with clients nationally and globally.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-[#0f0f0f] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p className="text-[11px] text-[#2e2e2e]">
-            © {year} The Lazy Studio · Nikita & Akash Kalsi · Chandigarh, India
+            © {year} The Lazy Studio · Chandigarh, India
           </p>
           <p className="text-[11px] text-[#2e2e2e]">
             Built with Next.js · Serving India 🇮🇳 & Worldwide 🌍

@@ -106,7 +106,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold text-[#f0f0f0] mb-2">Got it — thanks!</h3>
                 <p className="text-[#666] text-sm max-w-xs">
-                  Nikita or Akash will get back to you within 24 hours. Check your inbox.
+                  The Lazy Studio team will get back to you within 24 hours. Check your inbox.
                 </p>
               </div>
             ) : (

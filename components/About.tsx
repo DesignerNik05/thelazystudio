@@ -11,7 +11,7 @@ const fadeUp: Variants = {
 const perks = [
   { emoji: "🤝", title: "You talk to us directly", desc: "No account managers, no middle layers. You get the actual designer and developer on every call." },
   { emoji: "⚡", title: "We move faster", desc: "A two-person team makes decisions in minutes, not meetings. Faster iterations, quicker launches." },
-  { emoji: "🎯", title: "Your project isn't outsourced", desc: "Every pixel is designed by Akash. Every line of code is written by Nikita. Full stop." },
+  { emoji: "🎯", title: "Your project isn't outsourced", desc: "Every pixel is designed by our designer. Every line of code is written by our developer. Full stop." },
   { emoji: "💸", title: "No agency markup", desc: "Straightforward pricing. You pay for the work — not a fancy Gurugram office and 40 employees." },
 ];
 
@@ -42,15 +42,15 @@ export default function About() {
           >
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight text-[#f0f0f0]">
               Hi, we're{" "}
-              <span className="text-[#c8ff00]">Nikita & Akash.</span>
+              <span className="text-[#c8ff00]">The Lazy Studio.</span>
             </h2>
             <p className="mt-6 text-[#666] leading-relaxed text-lg">
-              We're a freelance design and development duo based in{" "}
+              A freelance design and development studio based in{" "}
               <span className="text-[#f0f0f0]">Chandigarh, Punjab</span> — yes, the city with the best roads in India and an unmatched eye for aesthetics.
             </p>
             <p className="mt-4 text-[#666] leading-relaxed">
-              Akash handles design — the thinking, the user flows, the interfaces that make people stop and say <em className="text-[#888] not-italic">"wait, that's actually really good."</em>
-              {" "}Nikita handles development — turning those designs into fast, responsive, real websites that work on every screen.
+              Our designer obsesses over user flows, visual hierarchy, and the tiny details that make an interface feel inevitable rather than designed.
+              Our developer turns those designs into fast, responsive, real websites that work on every screen.
             </p>
             <p className="mt-4 text-[#666] leading-relaxed">
               We work with startups, founders, and businesses across India — and with international clients who value a focused team over a bloated agency. We've found that being small is our biggest advantage.
@@ -75,17 +75,17 @@ export default function About() {
           <div className="flex flex-col gap-5">
             {[
               {
-                name: "Akash Kalsi",
-                role: "UI/UX Designer",
+                name: "UI/UX Designer",
+                role: "Design Lead",
                 from: "Chandigarh, India",
-                desc: "Akash obsesses over user flows, visual hierarchy, and the tiny details that make an interface feel inevitable rather than designed.",
+                desc: "Obsesses over user flows, visual hierarchy, and the tiny details that make an interface feel inevitable rather than designed.",
                 skills: ["User Research", "Wireframing", "Prototyping", "Figma", "Visual Identity"],
               },
               {
-                name: "Nikita",
-                role: "Front-End Developer",
+                name: "Front-End Developer",
+                role: "Development Lead",
                 from: "Chandigarh, India",
-                desc: "Nikita turns Akash's designs into pixel-perfect, performant websites — with clean code, smooth animations, and zero tolerance for layout bugs.",
+                desc: "Turns designs into pixel-perfect, performant websites — with clean code, smooth animations, and zero tolerance for layout bugs.",
                 skills: ["Next.js", "React", "Tailwind CSS", "WordPress", "AI Tools"],
               },
             ].map((person, i) => (

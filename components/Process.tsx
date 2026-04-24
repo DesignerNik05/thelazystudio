@@ -14,7 +14,7 @@ const steps = [
     num: "02",
     title: "Design",
     label: "Pixels with purpose.",
-    desc: "Akash takes the brief and turns it into something visual — wireframes first, high-fidelity next. You'll see and feel the product before a line of code is written. Changes are easy here.",
+    desc: "We take the brief and turn it into something visual — wireframes first, high-fidelity next. You'll see and feel the product before a line of code is written. Changes are easy here.",
   },
   {
     num: "03",

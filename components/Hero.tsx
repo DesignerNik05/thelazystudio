@@ -74,10 +74,9 @@ export default function Hero() {
           animate="visible"
           className="mt-8 text-[#666] text-base lg:text-lg max-w-lg leading-relaxed"
         >
-          Design & development by{" "}
-          <span className="text-[#f0f0f0] font-medium">Nikita & Akash Kalsi</span>
-          {" "}— a freelance duo from Chandigarh building digital products for
-          Indian brands and global clients.
+          A freelance design & development studio from Chandigarh —
+          building digital products for{" "}
+          <span className="text-[#f0f0f0] font-medium">Indian brands and global clients.</span>
         </motion.p>
 
         {/* CTAs */}

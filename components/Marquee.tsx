@@ -9,7 +9,7 @@ const items = [
   "Chandigarh, India",
   "National Projects",
   "International Projects",
-  "Nikita & Akash Kalsi",
+  "The Lazy Studio",
   "Pixels with Purpose",
   "Code that Delivers",
 ];
