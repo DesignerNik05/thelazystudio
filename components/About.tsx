@@ -58,10 +58,10 @@ export default function About() {
 
             <div className="mt-10 grid grid-cols-2 gap-5">
               {[
-                { value: "5+", label: "Years Experience" },
+                { value: "9+", label: "Years Experience" },
                 { value: "40+", label: "Projects Shipped" },
                 { value: "🇮🇳 + 🌍", label: "India & Worldwide" },
-                { value: "2", label: "Actual Humans" },
+                { value: "100%", label: "Client Satisfaction" },
               ].map((s) => (
                 <div key={s.label} className="border-t border-[#1e1e1e] pt-4">
                   <div className="text-2xl font-bold text-[#c8ff00]">{s.value}</div>
