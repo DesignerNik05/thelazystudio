@@ -74,8 +74,8 @@ export default function Work() {
           transition={{ duration: 0.6 }}
           className="flex items-center gap-3 mb-5"
         >
-          <span className="block w-8 h-px bg-[#c8ff00]" />
-          <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">
+          <span className="block w-8 h-px bg-[#FF6B35]" />
+          <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">
             Our Work
           </span>
         </motion.div>
@@ -88,7 +88,7 @@ export default function Work() {
             className="text-4xl lg:text-5xl font-bold text-[#f0f0f0]"
           >
             Selected{" "}
-            <span className="text-[#c8ff00]">projects</span>
+            <span className="text-[#FF6B35]">projects</span>
           </motion.h2>
 
           {/* Filter */}
@@ -104,7 +104,7 @@ export default function Work() {
                 onClick={() => setActive(cat)}
                 className={`text-sm px-4 py-2 rounded-full border transition-colors ${
                   active === cat
-                    ? "bg-[#c8ff00] text-[#080808] border-[#c8ff00] font-semibold"
+                    ? "bg-[#FF6B35] text-[#080808] border-[#FF6B35] font-semibold"
                     : "border-[#222] text-[#777] hover:border-[#444] hover:text-[#f0f0f0]"
                 }`}
               >
@@ -148,13 +148,13 @@ export default function Work() {
                 <div className="flex items-start justify-between gap-3">
                   <div>
                     <div className="text-xs text-[#555] mb-1">{project.year}</div>
-                    <h3 className="font-semibold text-[#f0f0f0] group-hover:text-[#c8ff00] transition-colors">
+                    <h3 className="font-semibold text-[#f0f0f0] group-hover:text-[#FF6B35] transition-colors">
                       {project.title}
                     </h3>
                   </div>
                   <ExternalLink
                     size={16}
-                    className="text-[#333] group-hover:text-[#c8ff00] transition-colors mt-1 flex-shrink-0"
+                    className="text-[#333] group-hover:text-[#FF6B35] transition-colors mt-1 flex-shrink-0"
                   />
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
@@ -181,7 +181,7 @@ export default function Work() {
           <p className="text-[#555] text-sm mb-4">More projects coming soon.</p>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 border border-[#333] text-[#f0f0f0] text-sm font-medium px-6 py-3 rounded-full hover:border-[#c8ff00] hover:text-[#c8ff00] transition-colors"
+            className="inline-flex items-center gap-2 border border-[#333] text-[#f0f0f0] text-sm font-medium px-6 py-3 rounded-full hover:border-[#FF6B35] hover:text-[#FF6B35] transition-colors"
           >
             Start a project with us
           </a>

@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <a href="#" className="flex items-center gap-2 mb-3">
-              <span className="text-[#c8ff00] font-bold text-xl">TLS</span>
+              <span className="text-[#FF6B35] font-bold text-xl">TLS</span>
               <span className="text-[#f0f0f0] font-medium text-sm opacity-40 tracking-widest uppercase hidden sm:block">The Lazy Studio</span>
             </a>
             <p className="text-xs text-[#444] leading-relaxed max-w-[220px]">
@@ -43,13 +43,13 @@ export default function Footer() {
           <div>
             <div className="text-[10px] text-[#333] tracking-widest uppercase mb-4">Contact</div>
             <div className="flex flex-col gap-2">
-              <a href="mailto:hello@thelazystudio.com" className="text-xs text-[#555] hover:text-[#c8ff00] transition-colors">
+              <a href="mailto:hello@thelazystudio.com" className="text-xs text-[#555] hover:text-[#FF6B35] transition-colors">
                 hello@thelazystudio.com
               </a>
               <div className="text-xs text-[#444]">📍 Chandigarh, India</div>
               <div className="text-xs text-[#444]">🕐 IST (UTC +5:30)</div>
               <div className="mt-3 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#c8ff00] animate-pulse" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B35] animate-pulse" />
                 <span className="text-xs text-[#555]">Available for projects</span>
               </div>
             </div>

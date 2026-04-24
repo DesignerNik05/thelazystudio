@@ -56,8 +56,8 @@ export default function Services() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-3 mb-5"
         >
-          <span className="block w-8 h-px bg-[#c8ff00]" />
-          <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">What We Do</span>
+          <span className="block w-8 h-px bg-[#FF6B35]" />
+          <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">What We Do</span>
         </motion.div>
 
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-14">
@@ -68,7 +68,7 @@ export default function Services() {
             className="text-4xl lg:text-5xl font-bold text-[#f0f0f0] max-w-lg leading-tight"
           >
             The full stack,{" "}
-            <span className="text-[#c8ff00]">without the agency.</span>
+            <span className="text-[#FF6B35]">without the agency.</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -94,7 +94,7 @@ export default function Services() {
 
               <div>
                 <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <h3 className="text-lg lg:text-xl font-semibold text-[#f0f0f0] group-hover:text-[#c8ff00] transition-colors">
+                  <h3 className="text-lg lg:text-xl font-semibold text-[#f0f0f0] group-hover:text-[#FF6B35] transition-colors">
                     {s.title}
                   </h3>
                 </div>
@@ -111,7 +111,7 @@ export default function Services() {
               <div className="hidden lg:flex items-start pt-1">
                 <ArrowRight
                   size={16}
-                  className="text-[#2a2a2a] group-hover:text-[#c8ff00] group-hover:translate-x-1 transition-all"
+                  className="text-[#2a2a2a] group-hover:text-[#FF6B35] group-hover:translate-x-1 transition-all"
                 />
               </div>
             </motion.div>
@@ -123,15 +123,15 @@ export default function Services() {
           initial={{ opacity: 0, y: 16 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.5 }}
-          className="mt-14 bg-[#c8ff00] rounded-2xl p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-5"
+          className="mt-14 bg-[#FF6B35] rounded-2xl p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-5"
         >
           <div>
             <div className="text-[#080808] text-xl font-bold">Need something specific?</div>
-            <div className="text-[#3a4a00] text-sm mt-1">We're happy to scope a custom package — for Indian and international projects.</div>
+            <div className="text-[#4a2010] text-sm mt-1">We're happy to scope a custom package — for Indian and international projects.</div>
           </div>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 bg-[#080808] text-[#c8ff00] font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#111] transition-colors whitespace-nowrap"
+            className="inline-flex items-center gap-2 bg-[#080808] text-[#FF6B35] font-semibold text-sm px-6 py-3 rounded-full hover:bg-[#111] transition-colors whitespace-nowrap"
           >
             Let's Talk <ArrowRight size={14} />
           </a>

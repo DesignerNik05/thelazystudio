@@ -20,7 +20,7 @@ const steps = [
     num: "03",
     title: "Build",
     label: "Code that doesn't break.",
-    desc: "Nikita builds what Akash designed — clean, fast, and responsive. We use modern frameworks and AI tools to move quickly without skipping the details that matter.",
+    desc: "We build it — clean, fast, and responsive. Using modern frameworks and AI tools to move quickly without skipping the details that matter.",
   },
   {
     num: "04",
@@ -44,8 +44,8 @@ export default function Process() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-3 mb-5"
         >
-          <span className="block w-8 h-px bg-[#c8ff00]" />
-          <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">The Lazy Method</span>
+          <span className="block w-8 h-px bg-[#FF6B35]" />
+          <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">The Lazy Method</span>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-start">
@@ -56,13 +56,13 @@ export default function Process() {
           >
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight text-[#f0f0f0]">
               How we{" "}
-              <span className="text-[#c8ff00]">actually work.</span>
+              <span className="text-[#FF6B35]">actually work.</span>
             </h2>
             <p className="mt-6 text-[#666] leading-relaxed text-lg max-w-md">
               No 47-step onboarding process. No jargon-filled proposals. Just a straightforward way of working that gets great things built.
             </p>
             <div className="mt-8 inline-flex items-center gap-2 border border-[#1e1e1e] rounded-full px-5 py-2.5 text-xs text-[#555]">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#c8ff00] animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B35] animate-pulse" />
               Currently available · Response within 24 hrs
             </div>
           </motion.div>
@@ -81,13 +81,13 @@ export default function Process() {
                   <div className="absolute left-[18px] top-8 bottom-0 w-px bg-[#1a1a1a]" />
                 )}
                 {/* Step dot */}
-                <div className="absolute left-0 top-0.5 w-9 h-9 rounded-full bg-[#0e0e0e] border border-[#222] flex items-center justify-center group-hover:border-[#c8ff00]/40 group-hover:bg-[#0f1f00] transition-all">
-                  <span className="text-[10px] font-mono text-[#555] group-hover:text-[#c8ff00] transition-colors">{step.num}</span>
+                <div className="absolute left-0 top-0.5 w-9 h-9 rounded-full bg-[#0e0e0e] border border-[#222] flex items-center justify-center group-hover:border-[#FF6B35]/40 group-hover:bg-[#1f0900] transition-all">
+                  <span className="text-[10px] font-mono text-[#555] group-hover:text-[#FF6B35] transition-colors">{step.num}</span>
                 </div>
 
                 <div>
-                  <div className="text-[#f0f0f0] font-semibold mb-0.5 group-hover:text-[#c8ff00] transition-colors">{step.title}</div>
-                  <div className="text-xs text-[#c8ff00]/60 mb-3 italic">{step.label}</div>
+                  <div className="text-[#f0f0f0] font-semibold mb-0.5 group-hover:text-[#FF6B35] transition-colors">{step.title}</div>
+                  <div className="text-xs text-[#FF6B35]/60 mb-3 italic">{step.label}</div>
                   <p className="text-[#666] text-sm leading-relaxed">{step.desc}</p>
                 </div>
               </motion.div>

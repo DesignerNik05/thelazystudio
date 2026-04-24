@@ -31,8 +31,8 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-3 mb-5"
         >
-          <span className="block w-8 h-px bg-[#c8ff00]" />
-          <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">Get in Touch</span>
+          <span className="block w-8 h-px bg-[#FF6B35]" />
+          <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">Get in Touch</span>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
@@ -45,7 +45,7 @@ export default function Contact() {
           >
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight text-[#f0f0f0]">
               Got a project?{" "}
-              <span className="text-[#c8ff00]">Let's build it.</span>
+              <span className="text-[#FF6B35]">Let's build it.</span>
             </h2>
             <p className="mt-6 text-[#666] leading-relaxed text-lg max-w-sm">
               Whether you're a startup in Chandigarh or a brand in California — if you have an idea, we want to hear it.
@@ -57,8 +57,8 @@ export default function Contact() {
                 href="mailto:hello@thelazystudio.com"
                 className="flex items-center gap-3 group text-[#666] hover:text-[#f0f0f0] transition-colors"
               >
-                <div className="w-9 h-9 rounded-full bg-[#0e0e0e] border border-[#1e1e1e] flex items-center justify-center group-hover:border-[#c8ff00]/30 transition-colors">
-                  <Mail size={14} className="text-[#c8ff00]" />
+                <div className="w-9 h-9 rounded-full bg-[#0e0e0e] border border-[#1e1e1e] flex items-center justify-center group-hover:border-[#FF6B35]/30 transition-colors">
+                  <Mail size={14} className="text-[#FF6B35]" />
                 </div>
                 <span className="text-sm">hello@thelazystudio.com</span>
               </a>
@@ -101,8 +101,8 @@ export default function Contact() {
           >
             {sent ? (
               <div className="h-full flex flex-col items-center justify-center text-center py-14">
-                <div className="w-16 h-16 rounded-full bg-[#0f1f00] border border-[#c8ff00]/30 flex items-center justify-center mb-6">
-                  <span className="text-[#c8ff00] text-xl">✓</span>
+                <div className="w-16 h-16 rounded-full bg-[#1f0900] border border-[#FF6B35]/30 flex items-center justify-center mb-6">
+                  <span className="text-[#FF6B35] text-xl">✓</span>
                 </div>
                 <h3 className="text-xl font-semibold text-[#f0f0f0] mb-2">Got it — thanks!</h3>
                 <p className="text-[#666] text-sm max-w-xs">
@@ -121,7 +121,7 @@ export default function Contact() {
                       value={form.name}
                       onChange={handleChange}
                       placeholder="Priya Sharma"
-                      className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#c8ff00]/40 transition-colors"
+                      className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#FF6B35]/40 transition-colors"
                     />
                   </div>
                   <div>
@@ -133,7 +133,7 @@ export default function Contact() {
                       value={form.email}
                       onChange={handleChange}
                       placeholder="priya@company.com"
-                      className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#c8ff00]/40 transition-colors"
+                      className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#FF6B35]/40 transition-colors"
                     />
                   </div>
                 </div>
@@ -144,7 +144,7 @@ export default function Contact() {
                     name="budget"
                     value={form.budget}
                     onChange={handleChange}
-                    className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#888] focus:outline-none focus:border-[#c8ff00]/40 transition-colors"
+                    className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#888] focus:outline-none focus:border-[#FF6B35]/40 transition-colors"
                   >
                     <option value="" disabled>Select a range...</option>
                     {budgets.map((b) => <option key={b} value={b}>{b}</option>)}
@@ -160,13 +160,13 @@ export default function Contact() {
                     onChange={handleChange}
                     placeholder="We need a website for our new D2C brand. We're based in Delhi and launching in 2 months..."
                     rows={5}
-                    className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#c8ff00]/40 transition-colors resize-none"
+                    className="w-full bg-[#111] border border-[#1e1e1e] rounded-xl px-4 py-3 text-sm text-[#f0f0f0] placeholder-[#333] focus:outline-none focus:border-[#FF6B35]/40 transition-colors resize-none"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="flex items-center justify-center gap-2 bg-[#c8ff00] text-[#080808] font-bold px-6 py-3.5 rounded-full hover:bg-white transition-colors text-sm mt-1"
+                  className="flex items-center justify-center gap-2 bg-[#FF6B35] text-[#080808] font-bold px-6 py-3.5 rounded-full hover:bg-white transition-colors text-sm mt-1"
                 >
                   Send Message <ArrowRight size={14} />
                 </button>

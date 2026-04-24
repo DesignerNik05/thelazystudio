@@ -24,7 +24,7 @@ export default function Marquee({ inverted = false }: { inverted?: boolean }) {
     <div
       className={`overflow-hidden py-4 border-y ${
         inverted
-          ? "bg-[#c8ff00] border-[#b8ef00] text-[#080808]"
+          ? "bg-[#FF6B35] border-[#E85A20] text-[#080808]"
           : "bg-[#0d0d0d] border-[#1a1a1a] text-[#555]"
       }`}
     >

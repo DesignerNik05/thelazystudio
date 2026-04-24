@@ -20,11 +20,11 @@ export default function Hero() {
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.025]"
         style={{
-          backgroundImage: "radial-gradient(circle, #c8ff00 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(circle, #FF6B35 1px, transparent 1px)",
           backgroundSize: "40px 40px",
         }}
       />
-      <div className="absolute -top-32 right-0 w-[500px] h-[500px] rounded-full bg-[#c8ff00]/5 blur-[140px] pointer-events-none" />
+      <div className="absolute -top-32 right-0 w-[500px] h-[500px] rounded-full bg-[#FF6B35]/5 blur-[140px] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto w-full">
 
@@ -36,8 +36,8 @@ export default function Hero() {
           animate="visible"
           className="flex flex-wrap items-center gap-4 mb-12"
         >
-          <span className="flex items-center gap-2 bg-[#0f1f00] border border-[#c8ff00]/20 text-[#c8ff00] text-xs font-medium px-4 py-2 rounded-full">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#c8ff00] animate-pulse" />
+          <span className="flex items-center gap-2 bg-[#1f0900] border border-[#FF6B35]/20 text-[#FF6B35] text-xs font-medium px-4 py-2 rounded-full">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B35] animate-pulse" />
             Available for new projects
           </span>
           <span className="flex items-center gap-1.5 text-xs text-[#555]">
@@ -61,7 +61,7 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="text-[clamp(3rem,9vw,8rem)] font-bold leading-[0.95] tracking-tight text-[#c8ff00]"
+          className="text-[clamp(3rem,9vw,8rem)] font-bold leading-[0.95] tracking-tight text-[#FF6B35]"
         >
           look easy.
         </motion.h1>
@@ -89,14 +89,14 @@ export default function Hero() {
         >
           <a
             href="#work"
-            className="group inline-flex items-center gap-2 bg-[#c8ff00] text-[#080808] font-bold px-7 py-3.5 rounded-full hover:bg-white transition-colors text-sm"
+            className="group inline-flex items-center gap-2 bg-[#FF6B35] text-[#080808] font-bold px-7 py-3.5 rounded-full hover:bg-white transition-colors text-sm"
           >
             See Our Work
             <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 border border-[#2a2a2a] text-[#999] font-medium px-7 py-3.5 rounded-full hover:border-[#c8ff00]/50 hover:text-[#f0f0f0] transition-all text-sm"
+            className="inline-flex items-center gap-2 border border-[#2a2a2a] text-[#999] font-medium px-7 py-3.5 rounded-full hover:border-[#FF6B35]/50 hover:text-[#f0f0f0] transition-all text-sm"
           >
             Start a Project
           </a>

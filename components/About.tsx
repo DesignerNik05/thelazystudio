@@ -29,8 +29,8 @@ export default function About() {
           variants={fadeUp}
           className="flex items-center gap-3 mb-5"
         >
-          <span className="block w-8 h-px bg-[#c8ff00]" />
-          <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">About Us</span>
+          <span className="block w-8 h-px bg-[#FF6B35]" />
+          <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">About Us</span>
         </motion.div>
 
         {/* Intro block */}
@@ -42,7 +42,7 @@ export default function About() {
           >
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight text-[#f0f0f0]">
               Hi, we're{" "}
-              <span className="text-[#c8ff00]">The Lazy Studio.</span>
+              <span className="text-[#FF6B35]">The Lazy Studio.</span>
             </h2>
             <p className="mt-6 text-[#666] leading-relaxed text-lg">
               A freelance design and development studio based in{" "}
@@ -64,7 +64,7 @@ export default function About() {
                 { value: "100%", label: "Client Satisfaction" },
               ].map((s) => (
                 <div key={s.label} className="border-t border-[#1e1e1e] pt-4">
-                  <div className="text-2xl font-bold text-[#c8ff00]">{s.value}</div>
+                  <div className="text-2xl font-bold text-[#FF6B35]">{s.value}</div>
                   <div className="text-xs text-[#666] mt-1 tracking-wide">{s.label}</div>
                 </div>
               ))}
@@ -94,12 +94,12 @@ export default function About() {
                 initial={{ opacity: 0, x: 30 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.2 + i * 0.15, duration: 0.6, ease: "circOut" }}
-                className="bg-[#0e0e0e] border border-[#1e1e1e] rounded-2xl p-7 hover:border-[#c8ff00]/20 transition-colors"
+                className="bg-[#0e0e0e] border border-[#1e1e1e] rounded-2xl p-7 hover:border-[#FF6B35]/20 transition-colors"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <div className="text-[#f0f0f0] font-semibold text-lg">{person.name}</div>
-                    <div className="text-[#c8ff00] text-xs tracking-widest uppercase mt-0.5">{person.role}</div>
+                    <div className="text-[#FF6B35] text-xs tracking-widest uppercase mt-0.5">{person.role}</div>
                   </div>
                   <span className="text-[#333] text-xs border border-[#1e1e1e] px-2.5 py-1 rounded-full">
                     📍 {person.from}
@@ -125,12 +125,12 @@ export default function About() {
           transition={{ delay: 0.4, duration: 0.6 }}
         >
           <div className="flex items-center gap-3 mb-3">
-            <span className="block w-8 h-px bg-[#c8ff00]" />
-            <span className="text-[#c8ff00] text-sm tracking-widest uppercase font-medium">Why Not an Agency?</span>
+            <span className="block w-8 h-px bg-[#FF6B35]" />
+            <span className="text-[#FF6B35] text-sm tracking-widest uppercase font-medium">Why Not an Agency?</span>
           </div>
           <h3 className="text-2xl lg:text-3xl font-bold text-[#f0f0f0] mb-10 max-w-xl">
             Being small is our{" "}
-            <span className="text-[#c8ff00]">biggest advantage.</span>
+            <span className="text-[#FF6B35]">biggest advantage.</span>
           </h3>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -140,7 +140,7 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.5 + i * 0.08, duration: 0.5 }}
-                className="bg-[#0e0e0e] border border-[#1e1e1e] rounded-xl p-5 hover:border-[#c8ff00]/20 transition-colors"
+                className="bg-[#0e0e0e] border border-[#1e1e1e] rounded-xl p-5 hover:border-[#FF6B35]/20 transition-colors"
               >
                 <div className="text-2xl mb-3">{perk.emoji}</div>
                 <div className="text-sm font-semibold text-[#f0f0f0] mb-2">{perk.title}</div>
